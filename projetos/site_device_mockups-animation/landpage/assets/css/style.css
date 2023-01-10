@@ -1,0 +1,132 @@
+.container {
+    height: 100%;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.div {
+
+    padding-top: 150px;
+}
+
+.description__text_paragrafo {
+    font-size: 20px;
+    font-weight: 300;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.description__text--title {
+    font-size: 60px;
+    font-weight: 600;
+    transform: scale(0);
+}
+
+.degrade__text {
+    background: linear-gradient(to left,
+            #97006d, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.degrade {
+    background: linear-gradient(to left,
+            #97006d, #ff8a00);
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/*                       subtitulo                     */
+
+
+.description__text--subtitle {
+    color: #ebebeb;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 34px;
+    transform: translateX(-120%);
+    position: relative;
+}
+
+/*                        botaooooo  */
+
+
+.description__button {
+    margin: 58px 0;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    width: 200px;
+    padding: 15px 58px 15px 58px;
+    position: relative;
+}
+
+.description__button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,
+            #97006d, #ff8a00);
+    z-index: -1;
+    transition: 1s ease;
+}
+
+.description__button:hover {
+    background: linear-gradient(to left,
+            #97006d, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description__button:hover::before {
+    width: 0;
+}
+
+/*
+.botao {
+    color: #fff;
+    background: linear-gradient(to left,
+            #97006d, #ff8a00);
+    padding: 15px 58px 15px 58px;
+}
+
+.botao::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 50%;
+    height: 50%;
+    background: red;
+    z-index: -1;
+    transition: 2s ease;
+}
+
+.botao:hover {
+    background: linear-gradient(to left,
+            #97006d, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.botao:hover::before {
+    width: 10px;
+}*/
+
+
+.box {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
